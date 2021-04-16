@@ -336,7 +336,7 @@ tiringa.on('group-participants-update', async (anu) => {
 	    for (let i of json[1].blocklist) {
 	    	blocked.push(i.replace('c.us','s.whatsapp.net'))
 	    }
-	})*/
+	})*//
 
 
       tiringa.on('chat-update', async (mek) => {
